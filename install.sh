@@ -8,10 +8,10 @@ cd $HOME/password_generator_cli
 
 npm install
 
-echo "alias gerar-senha='npx tsx $HOME/password_generator_cli/index.ts'" >> ~/.bashrc
+echo "alias gpass='npx tsx $HOME/password_generator_cli/index.ts'" >> ~/.bashrc
 
 source ~/.bashrc
 
-echo "A CLI foi instalada e o alias 'gerar-senha' foi configurado."
+echo "The CLI has been installed and the 'gpass' alias has been configured."
 
-read -p "Pressione enter tecla para fechar..."
+read -p "Press enter key to close..."
